@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Successful purchase" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-06-16T00:42:29" hostname="LAPTOP-BNAK8A6Q" time="21.78">
+  <properties/>
+  <testcase name="Successful purchase" classname="Successful purchase" time="21.78">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;...VY - 17T TOUCH LAPTO[P]&gt; but was:&lt;...VY - 17T TOUCH LAPTO[]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;...VY - 17T TOUCH LAPTO[P]&gt; but was:&lt;...VY - 17T TOUCH LAPTO[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.advantageshopping.automation.pageobjects.SearchPage.searchValidations(SearchPage.java:36)
+	at com.advantageshopping.automation.steps.SearchPageSteps.successfulPurchase(SearchPageSteps.java:18)
+	at com.advantageshopping.automation.steps.SearchPageSteps$$EnhancerByCGLIB$$8dd4e1c2.CGLIB$successfulPurchase$0(&lt;generated&gt;)
+	at com.advantageshopping.automation.steps.SearchPageSteps$$EnhancerByCGLIB$$8dd4e1c2$$FastClassByCGLIB$$382d9d83.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at com.advantageshopping.automation.steps.SearchPageSteps$$EnhancerByCGLIB$$8dd4e1c2.successfulPurchase(&lt;generated&gt;)
+	at com.advantageshopping.automation.stepdefinitions.SuccessfulPurchaseStepDefinitions.heFillsAllTheRequestedFieldsAndHeFollowsTheSteps(SuccessfulPurchaseStepDefinitions.java:32)
+	at ✽.he fills all the requested fields and he follows the steps(src/test/resources/features/successfulPurchase.feature:10)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[jun 15, 2021 7:42:30 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --disable-popup-blocking,--..., goog:chromeOptions: {args: [--disable-popup-blocking, --incognito, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, --always-authorize-plugins, --disable-extensions, --disable-dev-shm-usage], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 9061
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun 15, 2021 7:42:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Successful purchase
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Successful purchase
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - expected:<...VY - 17T TOUCH LAPTO[P]> but was:<...VY - 17T TOUCH LAPTO[]>
+]]></system-err>
+</testsuite>
